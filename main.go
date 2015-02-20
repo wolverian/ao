@@ -22,8 +22,8 @@ import (
 	"9fans.net/go/acme"
 	"9fans.net/go/plan9/client"
 
-	"code.google.com/p/go.tools/go/loader"
-	"code.google.com/p/go.tools/oracle"
+	"golang.org/x/tools/go/loader"
+	"golang.org/x/tools/oracle"
 )
 
 var ld = loader.Config{SourceImports: true}
